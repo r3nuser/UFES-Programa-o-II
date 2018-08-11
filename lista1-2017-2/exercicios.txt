@@ -1,0 +1,37 @@
+2)
+
+a) calcular e exibir a média de tres numeros reais
+
+b) informar os valores do seno, do cosseno e da tangente de um angulo, dado o seu valor em graus
+
+c) converter valores de temperatura de fahrenheit para celsius. a proporção utilizada é:
+
+(celsius/5) = [(fahrenheit - 32)/9]
+
+d) verificar se o ponto p = (1,2) pertence ao circulo de raio 1 e centro 3. se pertencer, seu programa deve emitir a mensagem "O ponto (x,y) pertence ao circulo de raio 3 e centro (3,3)." Senão, deve emitir a mensagem "O ponto (1,2) nao pertence ao circulo de raio 3 e centro (3,3)."
+
+e) verificar e exibir o maior entre dois numeros inteiros
+
+f) verificar e exibir o menor entre tres numeros inteiros
+
+g) calcular e exibit a area de um circulo de raio 2
+
+h) calcular e exibir a area de um circulo de raio r, dado r como entrada
+
+i) determinar um numero de cedulas de cada tipo (1,2,5,10,20,50,100) para pagar uma quantia em reais, lida pelo teclado
+
+j) faca um programa para ler 2 numeros inteiros e calcular a soma das suas raizes quadradas
+
+k) construa um programa para calcular a area de um circulo e raio de um circulo com metade dessa area. utilize o valor de pi = 3,141592
+
+l) faça um programa em quie dada uma temperatura em celsius ou fahrenheit converta esta temperatura para outra unidade
+
+10 f -> -12.22 C
+
+m) faça um programa que mostre se uma letra é ou nao uma vogal
+
+n) faça um programa que mostre a versao maiuscula de uma letra minuscula. Caso o caractere nao seja letra ou não seja minuscula, mostre uma mensagem. OBS: Proibido usar a função toupper. Dica: olhar a tabela ascii
+
+o) faça um programa que mostre se um numero inteiro é par ou impar
+
+
