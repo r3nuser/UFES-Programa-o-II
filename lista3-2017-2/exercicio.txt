@@ -1,0 +1,32 @@
+1- desenvolva um programa para exibir todos os numeros pares contidos em um determinado intevalo.
+
+2- faça um programa para apresentar todos os numeros contidos em um intervalo aberto de limites n e m e que sejam multiplos de 3 4 ou 7
+
+3- obter o mdc entre dois numeros inteiros
+
+4- faça um programa que leia n numeros e retorne o maior e o meno destes, a quantidade de pares, a quantidade de impares e a média deles.
+
+5- faça um programa que leia numeros inteiros e retorne o maior dos numeros digitados até o momento e amedia atual. o programa termina quando o usuario entra o numero 0
+
+6- escreva um programa para calcular o valor de pi de acordo com a seguinte formula
+
+somatorio(k começando em 1 até n 6/k^2)
+
+7- faça um programa para informar se um numero é primo
+
+8- faça um programa que calcule a soma s dos termos da sequencia abaixo, até que s assuma um valor mais proximo possivel de um limite dado como entrada. A função que calcula e^x na linguagem C. é exp(x)
+S = e^0+e^1+e^2... a entrada deve ser um inteiro que será limite para s precisão de 6 casas
+
+9- faça um programa que imprima os numeros primos contidos em um intervalo de extremos n e m, sendo n e m fornecidos pelo usuário, n deve ser sempre maior que m
+
+10- faça um programa que imprima na tela as tabuadas de n até m.
+
+11- observe a seguinte propriedade que alguns numeros paiores que 1000 e menores que 9999 possuem: 
+numero abcd (ab) + (cd) = (ef) / ef^2 = abcd 
+duas entradas sendo n sempre menor que m
+
+12- digite pelo teclado um texto terminado com um ponto final. seu programa deve reproduzir na tela do monitor o texto digitado, sem o ponto. use as funções getchat e putchar.
+
+13- digite pelo teclado um texto terminado com um ponto final. seu programa deve contar quantas letras o texto possui
+
+14- desenvolva um programa que, dado um numero inteiro, imprima seus fatores primos com seus respectivos expoentes
