@@ -1,0 +1,18 @@
+1) calcular e exibir o perimetro de um retangulo
+entrada: coordenadas (x,y) dos cantos inferior esquerto e superior direito do retangulo
+saida: perimetro, precisão 2 casas decimais.
+
+
+2) calcular a media de duas notas e diga se o aluno esta aprovado caso sua media seja maior ou igual a 7, reprovado caso a media seja menor que 5 ou de recuperação caso contrario.
+entrada: 2 notas parciais definidas como numeros inteiros.
+saida: media e mensagem apropriada. precisão de 1 casa decimal
+
+3) dizer qual o mes do ano é correspondente a um numero entre 1 ou 12, usando switch
+
+4) dados tres numeros inteiros, exibilos em ordem crescente.
+
+5) distribuir itens para um grupo de pessoas, e exibir quem foi a ultima pessoa a receber um item. assuma que a distribuição é feita da seguinte forma: a pessoa 1 recebe um item, depois a pessoa 2 recebe um item  e assim por diante até a pessoan. se ainda sobrarem itens disponniveis, o processo de distribuição recomeça da pessoa 1.
+
+6) dizer se um ponto está contido em um retangulo, dando os cantos opostos do mesmo. pontos pertencentes a bordas do retangulo são considerados como pertencentes do retangulo
+
+
