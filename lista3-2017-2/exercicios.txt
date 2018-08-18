@@ -5,7 +5,7 @@ n deve sempre ser menor que m
 n deve ser menor que m
 
 3 - obter o mdc entre dois numeros inteiros n sempre menor que m
-exibir os numeros inormatos e o mdc entre eles
+exibir os numeros e o mdc entre eles
 
 4 - faça um programa que leia n numeros e retorne o maior e o menor destes, a quantiade de pares, a quantidade de impares, e a média deles
 
