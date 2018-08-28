@@ -7,7 +7,6 @@ main(void){
   	    i = 0,
 	    soma = 0;
 
-
 	printf("Insira o valor de A\n");
 	scanf("%d", &a);
 
