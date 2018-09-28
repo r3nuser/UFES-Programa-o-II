@@ -1,0 +1,48 @@
+#include <stdio.h>
+
+#define LENGTH 10
+
+int sequential_search(int *a, int len, int value){
+	int i = 0;
+
+	for( i = 0 ; i < len ; i++ ){
+		if( value == a[i] )
+			return 1;
+	}
+
+	return 0;
+}
+
+void print_vector(int *a, int len){
+	int i = 0;
+
+	for( i = 0 ; i < len ; i++ ){
+		printf("[%d]", a[i]);
+	}
+	printf("\n");
+}
+
+void read_vector( int *a ){
+	int i = 0,
+	    j = 0,
+	    reads = 0;
+
+	for( i = 0 ; i < LENGTH ; i++ ){
+		do {
+			_SHOW_A_VECTOR
+			;
+			print_vector(a, i);
+			printf("Insira elementos distintos:\n");
+			scanf("%d", &a[i]);
+		} while( sequential_search(a, i, a[i]) );
+		
+	}
+}
+
+int main(void){
+	int a[LENGTH];
+
+	read_vector(a);
+
+	return 0;
+}

@@ -34,6 +34,8 @@ int recorrence(char *v, char c){
 	for( i = 0 ; i < strlen(v) ; i++ ){
 		if( v[i] == c ) counter++;
 	}
+
+	return counter;
 }
 
 void substring(char *v, int length){
@@ -50,8 +52,9 @@ void substring(char *v, int length){
 		substring[j] = v[i];
 		j++;
 	}
+	substring[length - index] = '\0';
 
-	printf("\nSubstring: %s", substring);
+	printf("\nSubstring: %s\n", substring);
 }
 
 void first_ocorrence(char *v, char ch, char c1){
@@ -61,7 +64,7 @@ void first_ocorrence(char *v, char ch, char c1){
 			v[i] = ch;
 			break;		}
 	}
-	printf("%s", v);
+	printf("%s\n", v);
 }
 
 void menu(char *v, char *w){
@@ -79,7 +82,7 @@ void menu(char *v, char *w){
 	printf("h - Substituir a primeira por C2\n");
 
 	scanf(" %c", &op);
-
+	system("clear");
 	switch( op ){
 		case 'a':
 			scanf("%s", v);
@@ -88,9 +91,20 @@ void menu(char *v, char *w){
 			printf("Tamanho:%d\n", strlen(v));
 			break;
 		case 'c':
-			printf("Comparar: %d\n", strcmp(v, w));
+			printf("Insira s2:\n");
+			scanf("%s", w);
+			index = strcmp(v, w);
+			if( index > 0 ) {
+				printf("S1 tem menor valor que S2\n");
+			} else if( index < 0 ) {
+				printf("S2 tem menor valor que S1\n");
+			} else {
+				printf("S1 e S2 sao iguais\n");
+			}
 			break;
 		case 'd':
+			printf("Insira s2:\n");
+			scanf("%s", w);
 			printf("\nConcatenacao: %s\n", strcat(v, w));
 			break;
 		case 'e':
